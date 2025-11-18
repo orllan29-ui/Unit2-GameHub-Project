@@ -144,3 +144,71 @@ color: #0b1a44;
     transform: translateY(-15px);
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
 }
+/* Lesson 10*/
+.about{
+    padding: 80px 0;
+    background-color: #eafff4;
+    margin: auto;
+}
+.about-content{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+.about-text{
+    flex: 1;
+}
+.about-image{
+    flex: 1;
+}
+.about-text h2{
+    color:#0b1a44;
+    margin-bottom: 25;
+    font-size: 2.2rem;
+}
+.about-text p{
+    color: #0b1a44;
+    font-size: 1.1rem;
+    line-height: 1.8;
+    margin-bottom: 1.5rem;
+}
+.about-image img{
+    width: 100%;
+border-radius: 12px;
+box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+}
+.community{
+    padding:80px 0;
+    background-color:#69ecab;
+}
+.community-content{
+    display: flex;
+    align-items: center;
+    gap:60px;
+    flex-direction: row-reverse;
+}
+.community-text{
+    flex:1;
+}
+.community-image{
+    flex:1;
+}
+.community-text h2{
+    color:#0b1a44;
+    margin-bottom: 25px;
+}
+.join-btn{
+background-color:#0b1a44;
+color:#40da8d;
+border:#40da8d;
+padding:12px 24px;
+border-radius:8px;
+font-weight:600;
+cursor:pointer;
+float: left;
+}
+.community-image img {
+    width:100%;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
